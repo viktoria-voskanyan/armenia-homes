@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover homes to buy and rent across Armenia. An English, Armenian and Russian property browsing demo.">
+  <meta name="theme-color" content="#213e35">
+  <title>Mer Tun — Find your place</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#listings" data-i18n="skip">Skip to properties</a>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="Մեր Տուն — Mer Tun"><img class="mer-tun-symbol" src="images/mer-tun-logo.svg" alt=""><span class="mer-tun-wordmark"><span class="mer-tun-name">Մեր Տուն <small>MER TUN</small></span><span class="mer-tun-tagline" data-i18n="brandTagline">Feel at home here.</span></span></a>
+    <nav aria-label="Main navigation"><button type="button" data-panel="agency" data-i18n="navAgency">Our agency</button><button type="button" data-panel="guide" data-i18n="navGuide">Home guide</button><button type="button" data-panel="saved"><span data-i18n="navSaved">Saved homes</span> <span id="saved-count" class="saved-count">0</span></button><button type="button" data-panel="contact" data-i18n="navContact">Contact</button></nav>
+    <div class="header-tools"><label class="currency-control"><span class="sr-only" data-i18n="currency">Currency</span><select id="currency"><option value="AMD">֏ AMD</option><option value="USD">$ USD</option><option value="EUR">€ EUR</option></select></label><label class="language"><span aria-hidden="true">◎</span><span class="sr-only" data-i18n="language">Language</span><select id="language"><option value="en">EN</option><option value="hy">ՀԱՅ</option><option value="ru">РУС</option></select></label></div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy"><p class="eyebrow" data-i18n="eyebrow">A new chapter starts with a place.</p><h1 data-i18n="headline">Find your place<br>in Armenia.</h1><p class="hero-description" data-i18n="intro">City living, a quieter countryside, or somewhere in between. Explore homes to buy and rent across Armenia.</p><a class="hero-link" href="#listings"><span data-i18n="explore">Explore the possibilities</span><span>↗</span></a><div class="hero-foot"><span class="small-line"></span><span data-i18n="everywhere">From Yerevan to your next favourite place.</span></div></div>
+      <div class="hero-photo"><img src="images/hero.png" alt="" fetchpriority="high"><span class="photo-caption" data-i18n="visual">A vision of home · Concept imagery</span></div>
+    </section>
+    <section class="search-section" aria-label="Property search">
+      <form id="search-form" class="search-box">
+        <div class="search-top"><div class="tabs" role="group" aria-label="Transaction"><button type="button" class="tab active" data-mode="all" aria-pressed="true" data-i18n="all">All</button><button type="button" class="tab" data-mode="buy" aria-pressed="false" data-i18n="buy">Buy</button><button type="button" class="tab" data-mode="rent" aria-pressed="false" data-i18n="rent">Rent</button></div><span class="search-kicker" data-i18n="searchKicker">Your home. Your criteria.</span></div>
+        <div class="search-fields">
+          <label><span data-i18n="region">Region</span><select id="region"></select></label>
+          <label><span data-i18n="city">City / town</span><select id="city"></select></label>
+          <label><span data-i18n="type">Property type</span><select id="type"><option value="" data-i18n="anyType">All property types</option><option value="apartment" data-i18n="apartment">Apartment</option><option value="house" data-i18n="house">House</option></select></label>
+          <label><span id="budget-label">Maximum price · AMD</span><input id="budget" type="number" min="0" step="any" placeholder="Any budget" data-placeholder="anyBudget"></label>
+          <button class="primary search-button" type="submit"><span data-i18n="search">Find a home</span><span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="more-filters"><label><span data-i18n="rooms">Rooms</span><select id="rooms"><option value="" data-i18n="any">Any</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4+</option></select></label><label><span data-i18n="minArea">Minimum area · m²</span><input id="area" type="number" min="0" placeholder="0"></label><button type="reset" class="text-button" data-i18n="reset">Reset filters</button></div>
+        <details id="fx-note" class="fx-note" hidden><summary id="fx-summary"></summary><p id="fx-details"></p><a href="https://www.cba.am/en/exchange-rates-archive" target="_blank" rel="noopener noreferrer">Central Bank of Armenia ↗</a></details>
+      </form>
+    </section>
+    <section class="listings wrap" id="listings">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="curated">Spaces for your next chapter</p><h2 data-i18n="listingTitle">A place to call yours.</h2></div><label class="sort"><span data-i18n="sort">Sort by</span><select id="sort"><option value="featured" data-i18n="featured">Featured</option><option value="low" data-i18n="low">Price: low to high</option><option value="high" data-i18n="high">Price: high to low</option><option value="area" data-i18n="largest">Largest first</option></select></label></div>
+      <div class="results-line"><p id="result-count" role="status" aria-live="polite"></p><span id="prices-label">Illustrative listings · Prices in AMD</span></div>
+      <div id="property-grid" class="property-grid"></div>
+      <div id="empty-state" class="empty-state" hidden><h3 data-i18n="noResults">No homes match these filters.</h3><p data-i18n="tryAgain">Try a different location or a wider budget.</p><button class="primary" id="clear-empty" data-i18n="reset">Reset filters</button></div>
+      <button class="outline load-more" id="load-more" data-i18n="more">Show more homes</button>
+    </section>
+    <section class="places" id="places"><div class="wrap places-inner"><div><p class="eyebrow" data-i18n="across">Across Armenia</p><h2 data-i18n="placesTitle">Different places.<br>One feeling of home.</h2><p data-i18n="placesText">Explore the capital and all ten regions. Find the setting that suits your everyday life.</p></div><div id="region-links" class="region-links"></div></div></section>
+    <section class="wrap how" id="how"><div class="section-heading"><div><p class="eyebrow" data-i18n="simple">Make room for what matters</p><h2 data-i18n="simpleTitle">A simpler way to explore.</h2></div></div><div class="steps"><article><span>01</span><h3 data-i18n="step1">Choose your setting</h3><p data-i18n="step1Text">Select a region, a town and the kind of home you have in mind.</p></article><article><span>02</span><h3 data-i18n="step2">Look a little closer</h3><p data-i18n="step2Text">Compare prices, room counts and spaces. Open a listing for more details.</p></article><article><span>03</span><h3 data-i18n="step3">Make it your shortlist</h3><p data-i18n="step3Text">Save the homes you like on this device and return to them whenever you want.</p></article></div></section>
+    <section class="closing wrap"><div><p class="eyebrow" data-i18n="closingEye">A place for every chapter</p><h2 data-i18n="closingTitle">Your next beginning<br>could be right here.</h2></div><button type="button" data-panel="contact" class="primary"><span data-i18n="navContact">Contact</span><span>↗</span></button></section>
+  </main>
+  <footer class="footer wrap"><div class="footer-top"><a class="brand" href="#home">⌂ <span>MER TUN</span></a><div class="footer-links"><button data-panel="agency" data-i18n="navAgency">Our agency</button><button data-panel="guide" data-i18n="navGuide">Home guide</button><button data-panel="contact" data-i18n="navContact">Contact</button></div></div><p data-i18n="demo">Portfolio demo. All listings, prices and property details are fictional. Images are AI-generated concepts and do not depict the listed properties. No real estate transactions or enquiries are processed.</p><div class="footer-bottom"><span>© <span id="year"></span> Mer Tun</span><a href="#home" data-i18n="back">Back to top ↑</a></div></footer>
+  <dialog id="details"><button id="close-dialog" class="close" aria-label="Close">×</button><div id="dialog-content"></div></dialog>
+  <dialog id="info-panel" aria-labelledby="panel-title"><button type="button" id="close-panel" class="close" aria-label="Close">×</button><div id="panel-content" class="panel-content"></div></dialog>
+  <noscript><p>This website needs JavaScript for property filters and translations.</p></noscript>
+</body>
+</html>

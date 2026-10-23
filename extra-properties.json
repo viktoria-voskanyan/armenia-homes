@@ -1,0 +1,900 @@
+[
+  {
+    "id": 25,
+    "city": "yerevan",
+    "region": "yerevan",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 65,
+    "price": 42000000,
+    "title": "courtyard",
+    "image": "property-25.webp",
+    "setting": "urban capital neighbourhood, rose or cream tuff, modern midrise blocks, planted courtyards",
+    "decor": "warm ivory plaster, cognac leather sofa, black steel dining chairs, smoked oak",
+    "cityLabels": [
+      "Yerevan · Arabkir",
+      "Երևան · Արաբկիր",
+      "Ереван · Арабкир"
+    ],
+    "district": [
+      "Yerevan · Arabkir",
+      "Երևան · Արաբկիր",
+      "Ереван · Арабкир"
+    ],
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 26,
+    "city": "yerevan",
+    "region": "yerevan",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 53,
+    "price": 105000,
+    "title": "courtyard",
+    "image": "property-26.webp",
+    "setting": "urban capital neighbourhood, rose or cream tuff, modern midrise blocks, planted courtyards",
+    "decor": "powder blue walls, cream sofa, birch wood, woven linen",
+    "cityLabels": [
+      "Yerevan · Arabkir",
+      "Երևան · Արաբկիր",
+      "Ереван · Арабкир"
+    ],
+    "district": [
+      "Yerevan · Arabkir",
+      "Երևան · Արաբկիր",
+      "Ереван · Арабкир"
+    ],
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 27,
+    "city": "yerevan",
+    "region": "yerevan",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 82,
+    "price": 49300000,
+    "title": "corner",
+    "image": "property-27.webp",
+    "setting": "urban capital neighbourhood, rose or cream tuff, modern midrise blocks, planted courtyards",
+    "decor": "pale sage walls, walnut sideboard, rust armchair, brass lighting",
+    "cityLabels": [
+      "Yerevan · Davtashen",
+      "Երևան · Դավթաշեն",
+      "Ереван · Давташен"
+    ],
+    "district": [
+      "Yerevan · Davtashen",
+      "Երևան · Դավթաշեն",
+      "Ереван · Давташен"
+    ],
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 28,
+    "city": "yerevan",
+    "region": "yerevan",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 70,
+    "price": 132000,
+    "title": "corner",
+    "image": "property-28.webp",
+    "setting": "urban capital neighbourhood, rose or cream tuff, modern midrise blocks, planted courtyards",
+    "decor": "sand plaster, navy sofa, terrazzo details, maple wood",
+    "cityLabels": [
+      "Yerevan · Davtashen",
+      "Երևան · Դավթաշեն",
+      "Ереван · Давташен"
+    ],
+    "district": [
+      "Yerevan · Davtashen",
+      "Երևան · Դավթաշեն",
+      "Ереван · Давташен"
+    ],
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 29,
+    "city": "aparan",
+    "region": "aragatsotn",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 68,
+    "price": 19000000,
+    "title": "courtyard",
+    "image": "property-29.webp",
+    "setting": "open Armenian highland foothills, stone low-rise homes, pitched roofs, dry grasses and distant mountains",
+    "decor": "soft lilac grey, caramel armchairs, dark ash floors",
+    "cityLabels": [
+      "Aparan",
+      "Ապարան",
+      "Апаран"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 30,
+    "city": "aparan",
+    "region": "aragatsotn",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 56,
+    "price": 120000,
+    "title": "courtyard",
+    "image": "property-30.webp",
+    "setting": "open Armenian highland foothills, stone low-rise homes, pitched roofs, dry grasses and distant mountains",
+    "decor": "white walls, terracotta tiles, forest-green sofa, rattan accents",
+    "cityLabels": [
+      "Aparan",
+      "Ապարան",
+      "Апаран"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 31,
+    "city": "talin",
+    "region": "aragatsotn",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 85,
+    "price": 26300000,
+    "title": "corner",
+    "image": "property-31.webp",
+    "setting": "open Armenian highland foothills, stone low-rise homes, pitched roofs, dry grasses and distant mountains",
+    "decor": "warm beige, burgundy sofa, light oak, textured wool",
+    "cityLabels": [
+      "Talin",
+      "Թալին",
+      "Талин"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 32,
+    "city": "talin",
+    "region": "aragatsotn",
+    "mode": "rent",
+    "type": "house",
+    "rooms": 5,
+    "area": 145,
+    "price": 147000,
+    "title": "terrace",
+    "image": "property-32.webp",
+    "setting": "open Armenian highland foothills, stone low-rise homes, pitched roofs, dry grasses and distant mountains",
+    "decor": "olive accents, cream sectional, travertine tables and walnut",
+    "cityLabels": [
+      "Talin",
+      "Թալին",
+      "Талин"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 33,
+    "city": "masis",
+    "region": "ararat",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 71,
+    "price": 22000000,
+    "title": "courtyard",
+    "image": "property-33.webp",
+    "setting": "flat warm Ararat valley, low-rise stone homes, vineyards, apricot gardens and hazy mountain backdrop",
+    "decor": "warm ivory plaster, cognac leather sofa, black steel dining chairs, smoked oak",
+    "cityLabels": [
+      "Masis",
+      "Մասիս",
+      "Масис"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 34,
+    "city": "masis",
+    "region": "ararat",
+    "mode": "rent",
+    "type": "house",
+    "rooms": 4,
+    "area": 136,
+    "price": 135000,
+    "title": "orchard",
+    "image": "property-34.webp",
+    "setting": "flat warm Ararat valley, low-rise stone homes, vineyards, apricot gardens and hazy mountain backdrop",
+    "decor": "powder blue walls, cream sofa, birch wood, woven linen",
+    "cityLabels": [
+      "Masis",
+      "Մասիս",
+      "Масис"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 35,
+    "city": "vedi",
+    "region": "ararat",
+    "mode": "buy",
+    "type": "house",
+    "rooms": 5,
+    "area": 149,
+    "price": 43800000,
+    "title": "terrace",
+    "image": "property-35.webp",
+    "setting": "flat warm Ararat valley, low-rise stone homes, vineyards, apricot gardens and hazy mountain backdrop",
+    "decor": "pale sage walls, walnut sideboard, rust armchair, brass lighting",
+    "cityLabels": [
+      "Vedi",
+      "Վեդի",
+      "Веди"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 36,
+    "city": "vedi",
+    "region": "ararat",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 76,
+    "price": 162000,
+    "title": "corner",
+    "image": "property-36.webp",
+    "setting": "flat warm Ararat valley, low-rise stone homes, vineyards, apricot gardens and hazy mountain backdrop",
+    "decor": "sand plaster, navy sofa, terrazzo details, maple wood",
+    "cityLabels": [
+      "Vedi",
+      "Վեդի",
+      "Веди"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 37,
+    "city": "armavir-city",
+    "region": "armavir",
+    "mode": "buy",
+    "type": "house",
+    "rooms": 4,
+    "area": 140,
+    "price": 35500000,
+    "title": "orchard",
+    "image": "property-37.webp",
+    "setting": "sunny flat agricultural plain, broad streets, pale tuff buildings, orchards and garden courtyards",
+    "decor": "soft lilac grey, caramel armchairs, dark ash floors",
+    "cityLabels": [
+      "Armavir",
+      "Արմավիր",
+      "Армавир"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 38,
+    "city": "armavir-city",
+    "region": "armavir",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 62,
+    "price": 150000,
+    "title": "courtyard",
+    "image": "property-38.webp",
+    "setting": "sunny flat agricultural plain, broad streets, pale tuff buildings, orchards and garden courtyards",
+    "decor": "white walls, terracotta tiles, forest-green sofa, rattan accents",
+    "cityLabels": [
+      "Armavir",
+      "Արմավիր",
+      "Армавир"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 39,
+    "city": "metsamor",
+    "region": "armavir",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 91,
+    "price": 28300000,
+    "title": "corner",
+    "image": "property-39.webp",
+    "setting": "sunny flat agricultural plain, broad streets, pale tuff buildings, orchards and garden courtyards",
+    "decor": "warm beige, burgundy sofa, light oak, textured wool",
+    "cityLabels": [
+      "Metsamor",
+      "Մեծամոր",
+      "Мецамор"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 40,
+    "city": "metsamor",
+    "region": "armavir",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 79,
+    "price": 177000,
+    "title": "corner",
+    "image": "property-40.webp",
+    "setting": "sunny flat agricultural plain, broad streets, pale tuff buildings, orchards and garden courtyards",
+    "decor": "olive accents, cream sectional, travertine tables and walnut",
+    "cityLabels": [
+      "Metsamor",
+      "Մեծամոր",
+      "Мецамор"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 41,
+    "city": "gavar",
+    "region": "gegharkunik",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 77,
+    "price": 17000000,
+    "title": "courtyard",
+    "image": "property-41.webp",
+    "setting": "cool open highland plateau, grey basalt stone, pitched metal roofs, mountains and sparse trees",
+    "decor": "warm ivory plaster, cognac leather sofa, black steel dining chairs, smoked oak",
+    "cityLabels": [
+      "Gavar",
+      "Գավառ",
+      "Гавар"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 42,
+    "city": "gavar",
+    "region": "gegharkunik",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 65,
+    "price": 165000,
+    "title": "courtyard",
+    "image": "property-42.webp",
+    "setting": "cool open highland plateau, grey basalt stone, pitched metal roofs, mountains and sparse trees",
+    "decor": "powder blue walls, cream sofa, birch wood, woven linen",
+    "cityLabels": [
+      "Gavar",
+      "Գավառ",
+      "Гавар"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 43,
+    "city": "martuni",
+    "region": "gegharkunik",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 94,
+    "price": 24300000,
+    "title": "corner",
+    "image": "property-43.webp",
+    "setting": "cool open highland plateau, grey basalt stone, pitched metal roofs, mountains and sparse trees",
+    "decor": "pale sage walls, walnut sideboard, rust armchair, brass lighting",
+    "cityLabels": [
+      "Martuni",
+      "Մարտունի",
+      "Мартуни"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 44,
+    "city": "martuni",
+    "region": "gegharkunik",
+    "mode": "rent",
+    "type": "house",
+    "rooms": 5,
+    "area": 157,
+    "price": 192000,
+    "title": "terrace",
+    "image": "property-44.webp",
+    "setting": "cool open highland plateau, grey basalt stone, pitched metal roofs, mountains and sparse trees",
+    "decor": "sand plaster, navy sofa, terrazzo details, maple wood",
+    "cityLabels": [
+      "Martuni",
+      "Մարտունի",
+      "Мартуни"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 45,
+    "city": "hrazdan",
+    "region": "kotayk",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 80,
+    "price": 27000000,
+    "title": "courtyard",
+    "image": "property-45.webp",
+    "setting": "highland valley, green foothills, pale stone residential buildings and simple pitched roof houses",
+    "decor": "soft lilac grey, caramel armchairs, dark ash floors",
+    "cityLabels": [
+      "Hrazdan",
+      "Հրազդան",
+      "Раздан"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 46,
+    "city": "hrazdan",
+    "region": "kotayk",
+    "mode": "rent",
+    "type": "house",
+    "rooms": 4,
+    "area": 148,
+    "price": 180000,
+    "title": "orchard",
+    "image": "property-46.webp",
+    "setting": "highland valley, green foothills, pale stone residential buildings and simple pitched roof houses",
+    "decor": "white walls, terracotta tiles, forest-green sofa, rattan accents",
+    "cityLabels": [
+      "Hrazdan",
+      "Հրազդան",
+      "Раздан"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 47,
+    "city": "stepanavan",
+    "region": "lori",
+    "mode": "buy",
+    "type": "house",
+    "rooms": 4,
+    "area": 152,
+    "price": 32500000,
+    "title": "orchard",
+    "image": "property-47.webp",
+    "setting": "green mountain valleys, leafy gardens, grey stone residential buildings, pitched roofs and soft wooded hills",
+    "decor": "warm ivory plaster, cognac leather sofa, black steel dining chairs, smoked oak",
+    "cityLabels": [
+      "Stepanavan",
+      "Ստեփանավան",
+      "Степанаван"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 48,
+    "city": "stepanavan",
+    "region": "lori",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 71,
+    "price": 195000,
+    "title": "courtyard",
+    "image": "property-48.webp",
+    "setting": "green mountain valleys, leafy gardens, grey stone residential buildings, pitched roofs and soft wooded hills",
+    "decor": "powder blue walls, cream sofa, birch wood, woven linen",
+    "cityLabels": [
+      "Stepanavan",
+      "Ստեփանավան",
+      "Степанаван"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 49,
+    "city": "spitak",
+    "region": "lori",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 100,
+    "price": 25300000,
+    "title": "corner",
+    "image": "property-49.webp",
+    "setting": "green mountain valleys, leafy gardens, grey stone residential buildings, pitched roofs and soft wooded hills",
+    "decor": "pale sage walls, walnut sideboard, rust armchair, brass lighting",
+    "cityLabels": [
+      "Spitak",
+      "Սպիտակ",
+      "Спитак"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 50,
+    "city": "spitak",
+    "region": "lori",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 88,
+    "price": 222000,
+    "title": "corner",
+    "image": "property-50.webp",
+    "setting": "green mountain valleys, leafy gardens, grey stone residential buildings, pitched roofs and soft wooded hills",
+    "decor": "sand plaster, navy sofa, terrazzo details, maple wood",
+    "cityLabels": [
+      "Spitak",
+      "Սպիտակ",
+      "Спитак"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 51,
+    "city": "artik",
+    "region": "shirak",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 86,
+    "price": 16000000,
+    "title": "courtyard",
+    "image": "property-51.webp",
+    "setting": "open highland town, restrained black and pink volcanic tuff houses and low-rise apartment blocks, broad mountain sky",
+    "decor": "soft lilac grey, caramel armchairs, dark ash floors",
+    "cityLabels": [
+      "Artik",
+      "Արթիկ",
+      "Артик"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 52,
+    "city": "artik",
+    "region": "shirak",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 74,
+    "price": 210000,
+    "title": "courtyard",
+    "image": "property-52.webp",
+    "setting": "open highland town, restrained black and pink volcanic tuff houses and low-rise apartment blocks, broad mountain sky",
+    "decor": "white walls, terracotta tiles, forest-green sofa, rattan accents",
+    "cityLabels": [
+      "Artik",
+      "Արթիկ",
+      "Артик"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 53,
+    "city": "maralik",
+    "region": "shirak",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 103,
+    "price": 23300000,
+    "title": "corner",
+    "image": "property-53.webp",
+    "setting": "open highland town, restrained black and pink volcanic tuff houses and low-rise apartment blocks, broad mountain sky",
+    "decor": "warm beige, burgundy sofa, light oak, textured wool",
+    "cityLabels": [
+      "Maralik",
+      "Մարալիկ",
+      "Маралик"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 54,
+    "city": "maralik",
+    "region": "shirak",
+    "mode": "rent",
+    "type": "house",
+    "rooms": 5,
+    "area": 169,
+    "price": 237000,
+    "title": "terrace",
+    "image": "property-54.webp",
+    "setting": "open highland town, restrained black and pink volcanic tuff houses and low-rise apartment blocks, broad mountain sky",
+    "decor": "olive accents, cream sectional, travertine tables and walnut",
+    "cityLabels": [
+      "Maralik",
+      "Մարալիկ",
+      "Маралик"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 55,
+    "city": "goris",
+    "region": "syunik",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 89,
+    "price": 24000000,
+    "title": "courtyard",
+    "image": "property-55.webp",
+    "setting": "green basin framed by rocky hills, regular streets of grey stone houses with red pitched roofs and garden courtyards",
+    "decor": "warm ivory plaster, cognac leather sofa, black steel dining chairs, smoked oak",
+    "cityLabels": [
+      "Goris",
+      "Գորիս",
+      "Горис"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 56,
+    "city": "goris",
+    "region": "syunik",
+    "mode": "rent",
+    "type": "house",
+    "rooms": 4,
+    "area": 160,
+    "price": 225000,
+    "title": "orchard",
+    "image": "property-56.webp",
+    "setting": "green basin framed by rocky hills, regular streets of grey stone houses with red pitched roofs and garden courtyards",
+    "decor": "powder blue walls, cream sofa, birch wood, woven linen",
+    "cityLabels": [
+      "Goris",
+      "Գորիս",
+      "Горис"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 57,
+    "city": "meghri",
+    "region": "syunik",
+    "mode": "buy",
+    "type": "house",
+    "rooms": 5,
+    "area": 173,
+    "price": 45800000,
+    "title": "terrace",
+    "image": "property-57.webp",
+    "setting": "warm dry southern mountain valley, ochre stone houses with shaded verandas, terraced fruit gardens and rugged arid ridges",
+    "decor": "pale sage walls, walnut sideboard, rust armchair, brass lighting",
+    "cityLabels": [
+      "Meghri",
+      "Մեղրի",
+      "Мегри"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 58,
+    "city": "meghri",
+    "region": "syunik",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 94,
+    "price": 252000,
+    "title": "corner",
+    "image": "property-58.webp",
+    "setting": "warm dry southern mountain valley, ochre stone houses with shaded verandas, terraced fruit gardens and rugged arid ridges",
+    "decor": "sand plaster, navy sofa, terrazzo details, maple wood",
+    "cityLabels": [
+      "Meghri",
+      "Մեղրի",
+      "Мегри"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 59,
+    "city": "ijevan",
+    "region": "tavush",
+    "mode": "buy",
+    "type": "house",
+    "rooms": 4,
+    "area": 164,
+    "price": 35500000,
+    "title": "orchard",
+    "image": "property-59.webp",
+    "setting": "lush rolling forested hills, stone and timber residences with wooden balconies and red or grey pitched roofs",
+    "decor": "soft lilac grey, caramel armchairs, dark ash floors",
+    "cityLabels": [
+      "Ijevan",
+      "Իջևան",
+      "Иджеван"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 60,
+    "city": "ijevan",
+    "region": "tavush",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 80,
+    "price": 240000,
+    "title": "courtyard",
+    "image": "property-60.webp",
+    "setting": "lush rolling forested hills, stone and timber residences with wooden balconies and red or grey pitched roofs",
+    "decor": "white walls, terracotta tiles, forest-green sofa, rattan accents",
+    "cityLabels": [
+      "Ijevan",
+      "Իջևան",
+      "Иджеван"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 61,
+    "city": "berd",
+    "region": "tavush",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 109,
+    "price": 28300000,
+    "title": "corner",
+    "image": "property-61.webp",
+    "setting": "lush rolling forested hills, stone and timber residences with wooden balconies and red or grey pitched roofs",
+    "decor": "warm beige, burgundy sofa, light oak, textured wool",
+    "cityLabels": [
+      "Berd",
+      "Բերդ",
+      "Берд"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 62,
+    "city": "berd",
+    "region": "tavush",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 97,
+    "price": 267000,
+    "title": "corner",
+    "image": "property-62.webp",
+    "setting": "lush rolling forested hills, stone and timber residences with wooden balconies and red or grey pitched roofs",
+    "decor": "olive accents, cream sectional, travertine tables and walnut",
+    "cityLabels": [
+      "Berd",
+      "Բերդ",
+      "Берд"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 63,
+    "city": "jermuk",
+    "region": "vayots-dzor",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 95,
+    "price": 23000000,
+    "title": "courtyard",
+    "image": "property-63.webp",
+    "setting": "cool elevated spa town in a rocky canyon landscape, stone buildings, leafy conifer parks and mountain slopes",
+    "decor": "warm ivory plaster, cognac leather sofa, black steel dining chairs, smoked oak",
+    "cityLabels": [
+      "Jermuk",
+      "Ջերմուկ",
+      "Джермук"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  },
+  {
+    "id": 64,
+    "city": "jermuk",
+    "region": "vayots-dzor",
+    "mode": "rent",
+    "type": "apartment",
+    "rooms": 2,
+    "area": 83,
+    "price": 255000,
+    "title": "courtyard",
+    "image": "property-64.webp",
+    "setting": "cool elevated spa town in a rocky canyon landscape, stone buildings, leafy conifer parks and mountain slopes",
+    "decor": "powder blue walls, cream sofa, birch wood, woven linen",
+    "cityLabels": [
+      "Jermuk",
+      "Ջերմուկ",
+      "Джермук"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 65,
+    "city": "vayk",
+    "region": "vayots-dzor",
+    "mode": "buy",
+    "type": "apartment",
+    "rooms": 3,
+    "area": 112,
+    "price": 30300000,
+    "title": "corner",
+    "image": "property-65.webp",
+    "setting": "rocky Armenian mountain valley, warm ochre stone buildings, dramatic ridgelines and small green planted courtyards",
+    "decor": "pale sage walls, walnut sideboard, rust armchair, brass lighting",
+    "cityLabels": [
+      "Vayk",
+      "Վայք",
+      "Вайк"
+    ],
+    "district": null,
+    "floorStyle": "generous tall rectangular wood-framed windows"
+  },
+  {
+    "id": 66,
+    "city": "vayk",
+    "region": "vayots-dzor",
+    "mode": "rent",
+    "type": "house",
+    "rooms": 5,
+    "area": 181,
+    "price": 282000,
+    "title": "terrace",
+    "image": "property-66.webp",
+    "setting": "rocky Armenian mountain valley, warm ochre stone buildings, dramatic ridgelines and small green planted courtyards",
+    "decor": "sand plaster, navy sofa, terrazzo details, maple wood",
+    "cityLabels": [
+      "Vayk",
+      "Վայք",
+      "Вайк"
+    ],
+    "district": null,
+    "floorStyle": "compact balcony with dark metal railing and broad rectangular glazing"
+  }
+]

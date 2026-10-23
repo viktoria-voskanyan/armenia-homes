@@ -1,0 +1,11 @@
+{
+  "base": "AMD",
+  "amd_per_unit": {
+    "AMD": 1,
+    "USD": 361.33,
+    "EUR": 405.23
+  },
+  "date": "2026-10-22",
+  "source": "https://www.cba.am/en/exchange-rates-archive",
+  "mode": "fixed reference snapshot; no automatic updates"
+}
