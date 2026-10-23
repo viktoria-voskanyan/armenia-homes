@@ -1,2 +1,2 @@
 # armenia-homes
-Հայաստանում անշարժ գույքի վաճառքի և վարձակալության եռալեզու ուսումնական կայք։
+A trilingual educational website for buying and renting real estate across Armenia.
